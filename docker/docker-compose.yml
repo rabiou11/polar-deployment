@@ -3,7 +3,7 @@ services:
   catalog-service:
     depends_on:
       - polar-postgres
-    image: "catalog-service:0.0.1-SNAPSHOT"
+    image: "catalog-service"
     container_name: "catalog-service"
     ports:
       - 9001:9001
